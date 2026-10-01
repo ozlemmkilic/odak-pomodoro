@@ -187,8 +187,6 @@ Veritabanında kullanıcı tarafından oluşturulan:
 
 saklanır.
 
-Bu veritabanı Git repository'sine dahil edilmemelidir ve `.gitignore` tarafından hariç tutulur.
-
 ---
 
 ## Gizlilik
@@ -267,51 +265,9 @@ Ayrıntılı süreç için:
 
 [`STORE_YAYIN_REHBERI.md`](STORE_YAYIN_REHBERI.md)
 
-Store'a özgü gerçek yayıncı bilgilerini içerebilecek:
-
-```text
-store/store-config.json
-```
-
-dosyası repository'ye eklenmemelidir.
-
-Bunun yerine örnek yapı:
-
-```text
-store/store-config.example.json
-```
-
-repository'de tutulabilir.
 
 ---
 
-## Derleme Dosyaları
-
-Repository'de kaynak kod tutulur. Aşağıdaki klasör ve çıktılar Git'e eklenmez:
-
-```text
-.venv/
-.build-env/
-build/
-dist/
-release/
-source-cache/
-LICENSES/
-```
-
-Ayrıca kullanıcı verileri ve derlenmiş paketler de hariç tutulur:
-
-```text
-*.sqlite3
-*.db
-*.csv
-*.exe
-*.msix
-```
-
-Bunların tamamı proje kökündeki `.gitignore` dosyasında tanımlanmıştır.
-
----
 
 ## Üçüncü Taraf Bileşenler
 
