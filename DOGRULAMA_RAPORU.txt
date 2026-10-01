@@ -1,0 +1,44 @@
+ODAK 2.2 — DOĞRULAMA VE YAYIN DURUMU
+Tarih: 23 Eylül 2026
+
+ORTAM
+Python 3.12 / Linux, PySide6-Essentials 6.11.2.
+Qt arayüz kontrolleri offscreen modunda çalıştırıldı.
+Bu ortamda Windows SDK, MakeAppx veya Windows çalıştırılmadı.
+Derleme başlatıcıları sonradan kullanıcının Python 3.13 sürümüne göre
+güncellendi. Yukarıdaki test ortamı bilgisi değişmedi; Windows/Python 3.13
+derlemesi burada çalıştırılmadı.
+
+YAPILAN KONTROLLER
+• 25 birim/regresyon testi: süre sınırı, mola, erken bitirme, gece yarısı
+  paylaştırma, gecikmiş sayaç işleme, uzatma, yeniden açma, kayıt hatasında
+  atomiklik, görev hedefi, günlük sıfırlama, eski veri geçişi, temiz kurulum,
+  Store kimlik alanları, sürüm denetimi ve XML metin kaçışları.
+• Boş ilk açılış → görev penceresinden ilk ana başlığı ekleme → görev
+  kaydetme → Başlat düğmesinin etkinleşmesi arayüz üzerinden doğrulandı.
+• Gizlilik/bildirim penceresi açıldı ve kapatıldı.
+• Görev seçme, duraklatma, mola, mor uzatma, erken bitirme, sıfırlama,
+  widget, iki tema, geçmiş, küçük pencere ve tekrar açma akışları doğrulandı.
+• Qt/Qt for Python kaynak arşivleri resmî sunucudan indirildi ve yayımlanan
+  SHA-256 değerleriyle doğrulandı; lisans bildirimleri kaynaklardan toplandı.
+• Alarm WAV dosyası okunabildi ve süresi doğrulandı.
+• Store görselleri gerçek uygulama arayüzünden, geçici yapay kayıtlarla
+  üretildi. Bu kayıtlar uygulama paketine dahil edilmez.
+• Kaynak teslim ZIP'i açık dosya listesiyle hazırlanır. Veritabanı, yedek,
+  yerel sanal ortam, sertifika/anahtar, kişisel Store kimliği, source-cache
+  ve derleme artıklarını içermez. Yeni kurulum hazır kategori eklemez.
+
+WINDOWS'TA YAPILMASI GEREKENLER
+• Python/Qt derlemesinin Windows x64 üzerinde tamamlanması.
+• MakeAppx şema ve paket doğrulaması; Microsoft hesabının kimliğiyle eşleşme.
+• Windows App Certification Kit raporu.
+• Gerçek ses çıkışı, yüksek DPI, masaüstü widget'ı, kapanış ve yeniden açılış.
+• Temiz Windows kullanıcı hesabı ve Store paket kimliğiyle ilk açılış.
+• Paketli sürümde yedekleme, kaldırma ve sonraki sürüme güncelleme.
+• Yayımlanmış HTTPS gizlilik sayfası ve genel destek adresi.
+• Partner Center adı/fiyatı/ülkeleri, IARC anketi ve Microsoft incelemesi.
+
+SONUÇ
+Kaynak uygulama ve Store yayın hazırlığı tamamlandı. Windows EXE/MSIX
+henüz burada üretilmedi; Store başvurusu gönderilmedi. Bu rapor bir
+Microsoft sertifikasyon veya güvenlik denetimi belgesi değildir.

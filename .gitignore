@@ -1,0 +1,68 @@
+# =========================
+# Odak Pomodoro - Git Ignore
+# =========================
+
+# Python cache / compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.build-env/
+
+# Build / release outputs
+build/
+dist/
+release/
+*.spec
+*.exe
+*.msix
+*.msixbundle
+*.appx
+*.appxbundle
+
+# Runtime / user data
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.csv
+app.lock
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Microsoft Store publisher-specific configuration
+store/store-config.json
+
+# Generated/downloaded build resources
+source-cache/
+LICENSES/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+~$*
+*.bak
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.code-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini

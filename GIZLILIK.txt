@@ -1,0 +1,44 @@
+ODAK — GİZLİLİK BİLDİRİMİ
+Sürüm: 2.2 • Güncelleme: 23 Eylül 2026
+
+Odak, çalışma süreni ve görevlerini kendi bilgisayarında takip eden bir
+masaüstü uygulamasıdır. Hesap oluşturmanı istemez.
+
+Hangi bilgiler saklanır?
+Senin yazdığın görev açıklamaları, ana başlıklar, süre hedefleri, oturum
+tarihleri, çalışılan süreler ve uygulama tercihleri yerel SQLite dosyasında
+saklanır. Yeni kurulumda hazır görev veya ana başlık bulunmaz.
+
+Veriler nereye gönderilir?
+Uygulama bu bilgileri geliştiriciye veya başka bir sunucuya göndermez.
+Analitik, reklam, izleme, bulut eşitleme veya hata raporu gönderimi yoktur.
+Uygulama çalışmak için internet bağlantısı istemez. Microsoft Store'un
+indirme, ödeme, güncelleme ve platform hizmetleri Microsoft'un kendi
+gizlilik koşullarına tabidir. Bu bildirim Odak uygulamasını kapsar.
+
+Dosyalar ve güvenlik
+Aktif veritabanının yolu Ayarlar > Veriler ve yedekleme bölümünde görünür.
+Dosya ayrıca şifrelenmez; bilgisayarındaki kullanıcı hesabının erişim
+korumasına dayanır. Uygulamaya hassas sağlık, finans veya kimlik bilgisi
+yazman gerekmez. Bilgisayarına veya yedeklerine erişimi olan kişiler
+kayıtlarını okuyabilir. Windows disk şifrelemesi ayrı bir sistem özelliğidir.
+
+Kontrolün sende
+Görevleri düzenleyebilir, listeden kaldırabilir ve Geçmiş ekranından
+çalışma kayıtlarını silebilirsin. Görevi listeden kaldırmak eski oturumları
+silmez. Görevleri sıfırla yalnızca günlük işaretleri ve tur sayaçlarını
+sıfırlar. CSV dışa aktarma ve veritabanı yedeği yalnızca sen istediğinde,
+seçtiğin dosyaya yapılır. Sen paylaşmadıkça bu dosyalar gönderilmez.
+
+Tüm yerel verileri kaldırmak
+Ayarlar'da gösterilen veri dosyası yolunu not al, ana pencereyi ve widget'ı
+kapat, o klasördeki odak.sqlite3 dosyasını ve aynı klasördeki eski
+veritabanı yedeklerini sil. Kendi oluşturduğun CSV ve yedek dosyalarını
+da sakladığın yerden silebilirsin. Sonraki açılış boş bir veritabanıyla
+başlar. Windows > Ayarlar > Uygulamalar üzerinden uygulamayı kaldırabilirsin.
+Store ve taşınabilir kurulumların veri klasörleri farklı olabilir.
+
+Destek
+Yayıncının iletişim bilgisi Microsoft Store'daki uygulama sayfasının
+destek bölümünde bulunur. Destek talebine kendi isteğinle eklediğin
+dosyaların içeriğini paylaşmadan önce kontrol et.

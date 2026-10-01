@@ -1,0 +1,42 @@
+ODAK 2.2 — ÜÇÜNCÜ TARAF BİLEŞENLER
+
+Bu uygulama Python, SQLite, PySide6/Qt ve Shiboken kullanır. Windows
+dağıtımı PyInstaller ile hazırlanır. Uygulamada reklam/analitik SDK'sı yoktur.
+
+PySide6, Shiboken ve Qt 6.11.2
+Copyright The Qt Company Ltd. ve katkıda bulunanlar.
+Bu uygulamada Qt'nin açık kaynak LGPLv3 seçeneği kullanılır. Kütüphaneler
+ayrı dinamik dosyalardır. LGPLv3 ve GPLv3 metinleri LICENSES klasöründedir.
+Qt'nin içerdiği diğer bileşenlerin bildirimleri aynı klasörde bulunur.
+https://doc.qt.io/qtforpython-6/licenses.html
+https://doc.qt.io/qt-6/licenses-used-in-qt.html
+https://www.qt.io/development/open-source-lgpl-obligations
+
+LGPL kapsamındaki kütüphaneleri değiştirme, yeniden bağlama ve bu
+değişikliklerde hata ayıklamak için tersine mühendislik yapma hakların
+saklıdır. Odak bu hakları sınırlandırmaz. Değiştirdiğin kütüphanelerle
+uygulamayı Store dışında, kendi kullanıcı klasöründe yeniden derleyip
+çalıştırabilirsin. Dağıtımdaki rebuild klasörü uygulama kaynaklarını ve
+derleme tarifini içerir. Bu erişim, uygulamanın kendisine genel bir
+yeniden dağıtım lisansı verildiği anlamına gelmez.
+
+Mağaza derlemesinde yayımcının kaynak kod sağlama teklifi SOURCE_OFFER.txt
+dosyasına eklenir. Tam karşılık gelen kütüphane kaynaklarının sağlanması,
+yayımcının sorumluluğundadır. Kaynak hazırlık paketinin yayımlanmamış
+sürümünde bu teklif henüz yürürlüğe girmiş bir yayın taahhüdü değildir.
+
+Python
+Python Software Foundation License; dağıtımdaki Python lisans ve
+üçüncü taraf bildirimleri LICENSES klasörüne derlemede eklenir.
+https://docs.python.org/3/license.html
+
+SQLite
+SQLite çekirdeği kamu malıdır: https://www.sqlite.org/copyright.html
+
+PyInstaller
+GPLv2 + dağıtım/bootloader istisnası. Bu istisna paketlenmiş uygulamaya
+genel GPL lisansı verme zorunluluğu getirmez. Lisans metni LICENSES
+klasörüne derlemede eklenir.
+https://pyinstaller.org/en/stable/license.html
+
+Uygulama simgesi ve alarm sesi bu proje için kodla üretilmiştir.
